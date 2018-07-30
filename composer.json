@@ -1,0 +1,21 @@
+{
+  "name": "vnilov/learning",
+  "description": "learning code examples",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vadim Nilov",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "7.2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Learning\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
